@@ -1,11 +1,12 @@
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Header from "./header";
+
+import Header from "./header/header";
 import Home from "./home/home";
 import About from "./about/about";
 import Contact from "./contact/contact";
 import Products from "./products/products";
-import ProductDetails from './products/productDetails';
+import ProductDetails from "./products/productDetails";
 function App() {
   return (
     <>
